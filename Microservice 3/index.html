@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Mapbox</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.4.1/mapbox-gl.js"></script>
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.4.1/mapbox-gl.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="coords">
+    <div class="username">
+      <p>USERNAME</p>
+      <p><span id="username" class="spn"></span></p>
+    </div>
+    <div class="latitude">
+      <p>LATITUDE</p>
+      <p><span id="latitude" class="spn"></span></p>
+    </div>
+    <div class="longitude">
+      <p>LONGITUDE</p>
+      <p><span id="longitude" class="spn"></span></p>
+    </div>
+  </div>
+
+  <div id="map"></div>
+
+  <script src="coordinates.js"></script>
+  <script src="renderMap.js"></script>
+</body>
+
+</html>
